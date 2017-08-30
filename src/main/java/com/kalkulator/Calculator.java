@@ -17,9 +17,15 @@ public class Calculator {
         return firstVariable - secondVariable;
     }
 
+    public double multiplyNumbers() {
+
+    }
+
     public static void main(String[] args) {
         double a = 5;
         double b = 4.5;
+        double c = 77;
+        double d = 12;
         Calculator calculator = new Calculator(a, b);
         double sum = calculator.addNumbers();
         double difference = calculator.substractNumbers();
